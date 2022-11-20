@@ -5,7 +5,7 @@ nums = list(range(0, 11))
 print(nums)
 
 
-even_nums = list(range(0, 11, 2))
+even_nums = list(range(0, 11, 2)) #0-11 but every 2 numbers
 print(even_nums)
 
 
