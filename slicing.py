@@ -1,6 +1,9 @@
 
 
 players = ['charles', 'martina', 'michael', 'florence', 'eli', 'jesus', 'patrick']
-print(players[0:3])
 
-print(players[1:4])
+print("First three players on my team: ")
+
+for p in players[:3]:
+    print(p.title())
+    
