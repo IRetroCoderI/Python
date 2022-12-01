@@ -24,6 +24,17 @@ for alien in aliens[:5]:
 #total num of aliens
 print(f"There are {len(aliens)} aliens in the fleet, commander")
 
+for alien in aliens[:5]:
+    if alien['color'] == 'green':
+        alien['color'] = 'yellow'
+        alien['speed'] = 'medium'
+        alien['points'] = 10
+
+i = 0
+for alien in aliens:
+    i+=1
+    print(f"Alien number {i}: {alien}")
+
 
 
 
