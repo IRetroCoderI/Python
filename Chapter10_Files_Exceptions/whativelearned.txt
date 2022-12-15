@@ -1,0 +1,5 @@
+
+ive learned control flow
+ive learned variables 
+ive learned how to open and read files
+i love python!!
